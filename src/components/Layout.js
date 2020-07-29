@@ -1,8 +1,16 @@
 import React from "react"
+
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Link } from "gatsby"
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to} activeStyle={{ color: `red`}}>{props.children}</Link>
+    <AniLink
+      cover
+      to={props.to}
+      direction="left"
+      duration={3}
+      bg="url(../background.jpg)" 
+      activeStyle={{ color: `red`}}>{props.children}</AniLink>
   </li>
 )
 

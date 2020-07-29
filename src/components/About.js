@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "../assets/images/portrait.png"
+
 
 export default function About() {
     return (
@@ -24,10 +24,7 @@ export default function About() {
             I am hoping to join an innovative and dynamic company and further develop my 
             skills in software development.
             </p>
-            {/* <div style={{ backgroundColor: `black`, position: `absolute`, top: '30vh', right: `50vh`, width:'250px',
-                height:`250px`, border: `1px solid black`, borderRadius:`100%`}}>
-                    <img src={pic} style={{borderRadius:`100%`, width: `250px`, height: `250px`}}/>
-            </div> */}
+            
         </div>
     )
 }

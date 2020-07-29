@@ -5,7 +5,6 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
@@ -44,10 +43,10 @@ export default function ProjectCard(props) {
       </CardActionArea>
       <CardActions>
           {props.github !== "#" && 
-          <a href={props.github} target="_blank" style={{paddingRight:`30px`, textDecoration:`none`}} ><GitHubIcon style={{color: `blue`}} /></a>}
+          <a href={props.github} target="_blank" rel="noreferrer" style={{paddingRight:`30px`, textDecoration:`none`}} ><GitHubIcon style={{color: `blue`}} />Repository</a>}
 
           {props.html !== "#" &&
-          <a href={props.html} target="_blank" style={{paddingRight:`30px`, textDecoration:`none`}} ><HttpIcon style={{color: `blue`}} /></a>}
+          <a href={props.html} target="_blank" rel="noreferrer" style={{paddingRight:`30px`, textDecoration:`none`}} ><HttpIcon style={{color: `blue`}} />Live Site</a>}
         
       </CardActions>
     </Card>

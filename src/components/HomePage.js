@@ -1,17 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 const ListLink = props => (
   <li className='listItem' style={{ display: `inline-block`, 
     textAlign: 'center', lineHeight: '100px', marginRight: `1rem`, 
     width: '100px', height: '100px', border: '1px solid grey', 
     borderRadius: '100%' }}>
-    <Link className='listItem' to={props.to}>{props.children}</Link>
+    <AniLink className="listItem"
+      cover
+      to={props.to}
+      direction="left"
+      duration={3}
+      bg="url(../background.jpg)" 
+      >{props.children}</AniLink>
   </li>
 )
 
 export default function HomePage() {
     return (
-        <div className="mDiv">
+        <div>
             <h1>Hi! I'm a Full Stack Web Developer.</h1>
             <p style={{ paddingBottom: `20px`}}>
                 I am currently looking for full time work or contract work.

@@ -5,7 +5,7 @@ export default function Resume(){
     return (
         <div>
             <h1>Resume Excerpt</h1>
-            <a href={res} target="_blank">View entire resume</a>
+            <a href={res} target="_blank" rel="noreferrer">View entire resume</a>
             <h3>Current Job</h3>
             <h4>Student Tutor</h4>
             <p>Kenzie Academy - started February 2020
