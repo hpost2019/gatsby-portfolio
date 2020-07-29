@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Portfolio Site",
+        "technology": "gatsbyjs",
+        "description": "Site created with gatsbyjs and css transistions,",
+        "imgLocation": "../background.jpg",
+        "github": "https://github.com/hpost2019/gatsby-portfolio",
+        "html": "http://www.howardpost.lasvegas"
+    },
+    {
+        "name": "Sentiment Analysis",
+        "technology": "python, tweepy, textblob",
+        "description": "I created this application to learn about sentiment analysis.  I used tweepy to connect to Twitter and capture Tweets, then used textblob to categorize those Tweets. ",
+        "imgLocation": "../background.jpg",
+        "github": "https://github.com/hpost2019/backend-sentiment-analysis",
+        "html": "#"
+    },
+    {
+        "name": "JudithTolman.com",
+        "technology": "JavaScript, CSS",
+        "description": "Site I was hired to create.  Site was created with JavaScript, and CSS it is a reactive site.",
+        "imgLocation": "../background.jpg",
+        "github": "#",
+        "html": "http://www.judithtolman.com"
+    }
+]

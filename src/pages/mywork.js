@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
 import { CSSTransition } from "react-transition-group"
 import LoadingScreen from "../components/LoadingScreen"
-import HomePage from "../components/HomePage"
-import Layout from "../components/Layout"
+import LayoutTwo from "../components/LayoutTwo"
+import Projects from "../components/Projects"
 
-export default function Home() {
+export default function MyWork() {
   const [bDiv, setBDiv] = useState(true)
   
   useEffect(() => {
@@ -21,9 +21,9 @@ export default function Home() {
             <LoadingScreen />
           </CSSTransition>
           <div className="content">
-            <Layout>
-              <HomePage />
-            </Layout>
+            <LayoutTwo>
+              <Projects />
+            </LayoutTwo>
           
             </div>
        
