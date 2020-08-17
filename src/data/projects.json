@@ -18,7 +18,7 @@
     {
         "name": "JudithTolman.com",
         "technology": "JavaScript, CSS",
-        "description": "Site I was hired to create.  Site was created with JavaScript, and CSS it is a reactive site.",
+        "description": "Site I was hired to create.  Site was created with JavaScript, and CSS it is a responsive site.",
         "imgLocation": "../background.jpg",
         "github": "#",
         "html": "http://www.judithtolman.com"
